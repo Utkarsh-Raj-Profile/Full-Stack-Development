@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #222;
+  color: hotpink;
+  font-family: system-ui, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* MAIN CONTENT */
+main.content {
+  flex: 1; /* THIS pushes footer down */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Button */
+input[type="submit"] {
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  background: #888;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #aaa;
+}
+
+/* FOOTER */
+footer {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: hotpink;
+}
